@@ -63,6 +63,8 @@ print(df)
 
 from nbb_api import ldb # Liga de Desenvolvimento de Basquete
 
+###### get_stats ######
+
 # Médias dos jogadores na temporada regular (pontos) em 2022
 df = ldb.get_stats(2022,'regular','cestinhas','avg','athletes')
 print(df)
@@ -71,4 +73,10 @@ df = ldb.get_stats(2011,'total','duplos-duplos','sum','athletes')
 print(df)
 # Total dos times na temporada regular (enterradas) em 2014
 df = ldb.get_stats(2014,'regular','enterradas','sum','teams')
+print(df)
+
+###### get_classificacao ######
+
+# Classificação temp. regular 2011
+df = ldb.get_classificacao(2011)
 print(df)
