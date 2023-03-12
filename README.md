@@ -1,6 +1,17 @@
 <p align="center">
 <img src="https://user-images.githubusercontent.com/57769272/224566374-c8c748c7-c663-489f-8b98-d7041ab4092a.png" width="150">
 </p>
+<p align="center">
+    <a href="https://pypi.org/project/nbb-api/">
+        <img src="https://img.shields.io/pypi/v/nbb-api" alt="pypi" />
+    </a>
+    <a href="https://pypi.org/project/nbb-api/">
+        <img src="https://img.shields.io/pypi/pyversions/nbb-api" alt="python version" />
+    </a>
+    <a href="https://pypi.org/project/nbb-api/">
+        <img src="https://img.shields.io/pypi/l/nbb-api" alt="license" />
+    </a>
+</p>
 
 # nbb_api
 
