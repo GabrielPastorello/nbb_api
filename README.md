@@ -17,7 +17,7 @@ This library was written as an exercise for creating my first PyPi package. Hope
 Install with the following command:
 
 ```
-pip install nbb_api
+pip install nbb-api
 ```
 
 ## Documentation
