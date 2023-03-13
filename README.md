@@ -17,7 +17,7 @@
 
 Python package for easy access to Brazilian basketball data through scraping of [LNB](https://lnb.com.br/) website.
 
-This allow users to obtain statistics, standings, and scores for various seasons and phases of the following tournaments:
+This allows users to obtain statistics, standings, and scores for various seasons and phases of the following tournaments:
 - **NBB** (Novo Basquete Brasil)
 - **LDB** (Liga de Desenvolvimento de Basquete)
 - **Liga Ouro**
