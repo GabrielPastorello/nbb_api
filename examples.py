@@ -80,3 +80,9 @@ print(df)
 # Classificação temp. regular 2011
 df = ldb.get_classificacao(2011)
 print(df)
+
+###### get_placares ######
+
+# Todos os placares (regular+playoffs) de 2022
+df = ldb.get_placares(2022,'total')
+print(df)
