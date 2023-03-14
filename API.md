@@ -57,6 +57,13 @@ Gets the standings of LDB regular season from a given season.
 
 Parameters:
   - **`season`**: Desired season (from `2011` to `2022` without 2020)
+
+### `get_placares(season, fase)`
+Gets all the LDB scores from a given season.
+
+Parameters:
+  - **`season`**: Desired season (from `2011` to `2022` without 2020)
+  - **`fase`**: Desired season phase (one of `'regular'`, `'total'`)  
   
 # Liga Ouro
 
