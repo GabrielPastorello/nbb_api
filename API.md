@@ -14,7 +14,7 @@ Gets the individual statistics of all NBB players from a given season.
 Parameters:
   - **`season`**: Desired season (from `'2008-09'` to `'2022-23'`)
   - **`fase`**: Desired season phase (one of `'regular'`, `'playoffs'`, `'total'`)
-  - **`categ`**: Desired category of stats (one of `'cestinhas`, `'rebotes'`, `'assistencias'`, `'arremessos`, `'bolas-recuperadas'`, `'tocos'`, `'erros`, `'eficiencia'`, `'duplos-duplos'`, `'enterradas'`)
+  - **`categ`**: Desired category of stats (one of `'cestinhas'`, `'rebotes'`, `'assistencias'`, `'arremessos'`, `'bolas-recuperadas'`, `'tocos'`, `'erros'`, `'eficiencia'`, `'duplos-duplos'`, `'enterradas'`)
   - **`tipo`**: Data format (one of `'avg'`, `'sum'`). Default value is `'avg'`.
   - **`quem`**: Whether to return data from players or teams (one of `'athletes'`, `'teams'`). Default value is `'athletes'`.
   - **`sofrido`**:  Whether to return numbers suffered by the team (one of `True`, `False`). *Only meaningful for team stats*. Default value is `False`.  
@@ -47,7 +47,7 @@ Gets the individual statistics of all LDB players from a given season.
 Parameters:
   - **`season`**: Desired season (from `2011` to `2022` without 2020)
   - **`fase`**: Desired season phase (one of `'regular'`, `'total'`)
-  - **`categ`**: Desired category of stats (one of `'cestinhas`, `'rebotes'`, `'assistencias'`, `'arremessos`, `'bolas-recuperadas'`, `'tocos'`, `'erros`, `'eficiencia'`, `'duplos-duplos'`, `'enterradas'`)
+  - **`categ`**: Desired category of stats (one of `'cestinhas'`, `'rebotes'`, `'assistencias'`, `'arremessos'`, `'bolas-recuperadas'`, `'tocos'`, `'erros'`, `'eficiencia'`, `'duplos-duplos'`, `'enterradas'`)
   - **`tipo`**: Data format (one of `'avg'`, `'sum'`). Default value is `'avg'`.
   - **`quem`**: Whether to return data from players or teams (one of `'athletes'`, `'teams'`). Default value is `'athletes'`.
   - **`sofrido`**:  Whether to return numbers suffered by the team (one of `True`, `False`). *Only meaningful for team stats*. Default value is `False`.  
