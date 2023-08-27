@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setuptools.setup(
             name='nbb_api',
-            version='0.1.4',
+            version='0.1.5',
             description='Python package for easy access to Brazilian basketball data: NBB (Novo Basquete Brasil), Liga Ouro and LDB',
             long_description=long_description,
             long_description_content_type="text/markdown",
@@ -17,11 +17,11 @@ setuptools.setup(
             keywords=['nbb','novo basquete brasil','scraper','basketball',
                       'international basketball','brazil','ldb','liga-ouro'],
             python_requires=">=3.6",
-            install_requires=['pandas==1.5.3',
-                              'numpy==1.24.1',
-                              'python-dateutil==2.8.2',
-                              'pytz==2022.7',
-                              'lxml==4.9.2'
+            install_requires=['pandas>=1.5.3',
+                              'numpy>=1.24.1',
+                              'python-dateutil>=2.8.2',
+                              'pytz>=2022.7',
+                              'lxml>=4.9.2'
                               ],
             classifiers=[
                 "Programming Language :: Python :: 3",
