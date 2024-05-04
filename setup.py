@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setuptools.setup(
             name='nbb_api',
-            version='0.1.5',
+            version='0.1.6',
             description='Python package for easy access to Brazilian basketball data: NBB (Novo Basquete Brasil), Liga Ouro and LDB',
             long_description=long_description,
             long_description_content_type="text/markdown",
