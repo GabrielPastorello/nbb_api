@@ -24,7 +24,6 @@ This allows users to obtain statistics, standings, and scores for various season
 
 ## 🚀 Installing
 ### Via `pip`
-This library was written as an exercise for creating my first PyPi package. Hopefully you will find it valuable!
 Install with the following command:
 
 ```
